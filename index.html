@@ -5,8 +5,15 @@
 	</head>
 	<body>
 		<style>
+		div.p {
+			position: relative;
+			}
 		.btn {
-		    top-margin: 100px;
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		    margin-top: 100px;
 		    background-color: #4CAF50;
 		    color: white;
 		    padding: 16px;
@@ -15,7 +22,9 @@
     		    cursor: pointer;
 			}
 		</style>
+		<div class='p'>
 		<a href="#" class="btn" onclick='randmeme()'>Link Button</a>
+		</div>
 	</body>
 	
 	
