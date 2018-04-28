@@ -3,5 +3,5 @@ function Random(min, max) {
 	return x;
 }
 var x = Random(1,17);
-var y = x + '.png';
+var y = 'memes/' + x + '.png';
 $(".meme").attr("src",y);
